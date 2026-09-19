@@ -268,7 +268,16 @@ DigitalOcean / AWS deploys.
   and deeper capabilities behind feature flags. Simple to start, honest to
   operate, easy to test.
 - **Yours to own.** GPL-3.0, self-hostable, no lock-in.
+## Common Use Cases
 
+TinyJuice can be useful in a variety of workflows:
+
+- Compressing large terminal logs before sending them to an AI model
+- Reducing token usage when analyzing code diffs
+- Summarizing search results and web content
+- Making long JSON outputs easier to inspect
+- Keeping important errors and warnings visible in large logs
+- Improving context efficiency for coding agents and automation tools
 ## Make it yours
 
 Each company folder holds a `company.toml`, a plain text file naming the roles,
